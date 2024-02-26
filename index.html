@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Responsive Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+
+            <a href="#" class="logo">
+              <img src="images/logo.png" alt="">
+              <h3>Prodigy Info Tech</h3>
+            </a>
+      
+            <div class="links">
+               <a href="#home" onmouseover="changeColor(this)" onmouseout="resetColor(this)">home</a>
+               <a href="#about" onmouseover="changeColor(this)" onmouseout="resetColor(this)">about</a>
+               <a href="#contact" onmouseover="changeColor(this)" onmouseout="resetColor(this)">contact</a>
+            </div>
+      
+            <div id="menu-btn" class="fa fa-bars"></div>
+      
+         </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="image">
+            <img src="images/home.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Embracing every opportunity and seizing the day as an intern.</h3>
+        </div>
+
+
+    </section>
+
+    <section class="about" id="about">
+        <h3>About</h3>
+        <p>As a web development intern at Prodigy Info Tech, my initial task involves creating a responsive landing page using HTML, CSS, and JavaScript. This project marks the beginning of my practical experience in web development, where I am focused on building a user-friendly and visually appealing landing page. I am excited to contribute to the company's digital presence and apply the skills I have learned during my academic journey.</p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h3>Connect With Me</h3>
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" id="email">
+            <br>
+            <label for="linkedin">Linkedin</label>
+            <input type="text" id="linkedin">
+            <br>
+            <input type="submit" value="Connect" id="submit">
+        </form>
+    </section>
+</body>
+</html>
